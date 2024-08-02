@@ -1,0 +1,9 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
