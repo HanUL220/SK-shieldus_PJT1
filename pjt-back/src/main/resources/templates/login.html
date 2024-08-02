@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>로그인</title>
+</head>
+<body>
+	<div class="container">
+		<h2>로그인 페이지 입니다.</h2>
+		
+		<form method="POST" action="/loginProc">
+			<input type="text" name="username" placeholder="ID를 입력하세요."/>
+			<input type="text" name="password" placeholder="패스워드를 입력하세요."/>
+			<input type="submit" value="로그인" />
+		</form>
+	</div>
+</body>
+</html>
